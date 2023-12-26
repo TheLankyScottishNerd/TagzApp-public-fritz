@@ -32,7 +32,7 @@ responsive
 /*--- animate ---*/
 @import url("../css/animate.min.css");
 @import url("../css/baguetteBox.css");
-@import url("../owlcarousel/assets/owl.carousel.min.css");
+/* @import url("../owlcarousel/assets/owl.carousel.min.css"); */
 /*--- LOADING ---*/
 #loading {
   background-image: url("../images/loader.gif");
