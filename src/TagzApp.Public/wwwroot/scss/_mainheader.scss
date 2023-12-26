@@ -1,0 +1,143 @@
+/*--- main-header ---*/
+
+.main-header {
+	position: relative;
+	height: 1000px;
+	background: rgba(0, 0, 0, 0) url("../images/slider.jpg") no-repeat scroll center 0 / cover;
+	.container {
+    max-width: 1440px;
+}
+	.item {
+		height: 850px;
+		background-size: cover;
+	}
+	.right-control {
+		border: 2px solid $base-color;
+		border-radius: 50%;
+		font-size: 44px;
+		height: 48px;
+		right: 30px;
+		line-height: 38px;
+		position: absolute;
+		color: $base-color;
+		text-align: center;
+		top: 48%;
+		width: 48px;
+		z-index: 99;
+	}
+	.left-control {
+		border: 2px solid$base-color;
+		border-radius: 50%;
+		font-size: 44px;
+		height: 48px;
+		left: 30px;
+		line-height: 38px;
+		position: absolute;
+		text-align: center;
+		top: 48%;
+		color: $base-color;
+		width: 48px;
+		z-index: 99;
+	}
+}
+
+.main-header-text {
+	margin-top: 380px;
+	width: 100%;
+	.img {
+		animation: alltuchtopdown 10s infinite;
+		-webkit-animation: alltuchtopdown 10s infinite;
+		animation-delay: 0s;
+		-webkit-animation-delay: 1s;
+	}
+	
+}
+.pan {
+		position: absolute;
+		right: 791px;
+		top:582px;
+		img {
+			animation: alltuchtopdown 3s infinite;
+			-webkit-animation: alltuchtopdown 3s infinite;
+			animation-delay: 0s;
+			-webkit-animation-delay: 1s;
+		}
+	}
+.laptop {
+	position: absolute;
+	right: 100px;
+	top: 200px;
+	z-index: 999;
+}
+.main-header-text h3 {
+	color: $blue-color;
+}
+
+.main-header-text {
+	h2 {
+		font-size: 80px;
+		font-weight: 700;
+		margin-top: 30px;
+		color: $white-color;
+		letter-spacing: -3px;
+		strong {
+			color: $yellow-color;
+		}
+	}
+	h5
+	{
+	font-family:$title-family;
+		color:$perpal;
+	}
+	p {
+		color: $white-color;
+		line-height: 30px;
+		width: 90%;
+		margin-top: 20px;
+	}
+}
+
+
+.main-header-text a {
+    border: 3px solid #ad9ec180;
+    color: $white-color;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    margin-right: 19px;
+	font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.main-header-text a:hover,
+.main-header-text a.active {
+	 border: 3px solid $red;
+	background: $red;
+}
+
+.main-header2 {
+	height: 100%;
+	background: rgba(0, 0, 0, 0) url("../images/header-bg02.jpg") no-repeat scroll center 0 / cover;
+	.main-header-text {
+		margin-top: 180px;
+		img {
+			margin-top: 50px;
+		}
+		h1 {
+			font-size: 60px;
+			font-weight: 500;
+			margin-top: 30px;
+			color: $white-color;
+			strong {
+				color: $yellow-color;
+			}
+		}
+		p {
+			color: $white-color;
+			line-height: 30px;
+			width: 50%;
+			margin: auto;
+		}
+	}
+}

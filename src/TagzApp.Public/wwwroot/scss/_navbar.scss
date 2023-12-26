@@ -1,0 +1,95 @@
+/*--- navbar ---*/
+.fixed-top {
+    top: 100px;
+    padding: 0 100px;
+}
+
+.dropdown-menu {
+    background-color: #111958;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #e72c30;
+}
+.nav-center {
+    margin-left:5%;
+	width: 100%;
+}
+.navbar.scroll.bg-tra {
+    top: 0;
+    padding: 16px 100px;
+    background-color: #111958;
+    box-shadow: 0 0 2px rgba(50, 50, 50, 0.4);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.65rem 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	color: #d5bee5;
+	
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+		color:$red;
+	}
+.nav-item {
+	position: relative;
+    margin: 0 1.4rem;
+}
+.top-search {
+    float: left;
+	width: 20%;
+	border-left: 2px solid #33365a;
+	margin-left: 30px;
+	padding: 4px 30px;
+	input{
+		width:100%;
+		background:none;
+		border: 2px solid #ffffff1a;		
+		padding: 5px 10px;
+		color: #fff;
+	}
+}
+.nav-item.nl-simple{
+transition: all 0.3s ease 0s;
+
+}
+.nav-item.nl-simple:hover::before {
+   width: 30px;
+	height: 2px;
+	position: absolute;
+	content: "";
+	background: red;
+	bottom: 5px;
+	left: 22%;
+	
+}
+.nav-item.nl-simple:hover::after {
+    width: 30px;
+	height: 2px;
+	position: absolute;
+	content: "";
+	background: red;
+	bottom: 1px;
+	left: 35%;
+}
+.top-button {
+    background: $red;
+    padding: 15px 30px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 16px;
+	display: inline-block;
+}
+.top-button2 {
+     padding: 12px 30px;
+	font-size: 16px;
+	font-weight: 500;
+	display: inline-block;
+	margin-left: 16px;
+	border: 3px solid #ad9ec180;
+}

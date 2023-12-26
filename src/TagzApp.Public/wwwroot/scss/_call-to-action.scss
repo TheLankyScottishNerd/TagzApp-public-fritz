@@ -1,0 +1,41 @@
+/*--- call_to_action ---*/
+
+.call_to_action {
+	padding: 120px 0 120px;
+	    background: url(../images/call_to_action.jpg) no-repeat;
+		text-align: center;
+		.title {
+    margin-bottom: 40px;
+}
+.logo {
+    width: 100%;
+    margin-top: 85px;
+}
+.logo li {
+    display: inline-block;
+    width: 19%;
+}
+		.text{
+				width: 70%;
+				display: inline-block;
+				p{
+					color: #d2cbe5;
+					margin-bottom:50px;
+				}
+				
+			}
+		h2 {
+			color: #fff;
+		}
+		.tab {
+			margin-left: -82px;
+			margin-top: 100px;
+			img {
+				animation: alltuchtopdown 3s infinite;
+				-webkit-animation: alltuchtopdown 3s infinite;
+				animation-delay: 0s;
+				-webkit-animation-delay: 1s;
+			}
+		}
+}
+

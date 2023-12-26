@@ -1,0 +1,98 @@
+/*--- tabs ---*/
+
+#preview{
+.title{
+	margin:30px 0 0;
+}
+.spicel-features{
+	background:#fafaff;
+}
+.nav-fill .nav-item
+{
+	text-align:left;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	text-t
+	i{
+		margin-right:10px;		
+	}
+	i::before
+		{
+			font-size: 26px;
+			margin-right: 13px;
+			position: relative;
+			top: 4px;
+		}
+}
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    border-radius:0;
+	padding: 0 30px;
+
+}
+.nav-item {
+    margin: 0 0;
+}
+a.nav-item.nav-link.active{
+	background:$red !important;
+	color: #fff !important;
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+	border: none;
+	padding: 18px 25px;
+	color: #928dbf;
+	border-radius: 0;
+	background: #fff;
+	border: 1px solid #ecedff;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: absolute;
+	bottom: -30px;
+	left: 12%;
+  border: 15px solid transparent;
+  border-top-color: $red ;
+}
+.tab-content{
+        padding:50px 25px 0!important;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+    background: $red;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+ul{
+margin:60px 0;
+li{
+margin-bottom:35px;
+}
+li::before {
+    content: "\f00c";
+	font-family: FontAwesome;
+	border: 2px solid #d6dcec;
+	margin-right:15px;
+	padding: 12px;
+	position: relative;
+	color:$red;
+	border-radius: 50%;
+}
+li:hover::before 
+{
+	background:$red;
+	border: 2px solid $red;
+	color:#fff;
+}
+}
+}

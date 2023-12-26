@@ -1,0 +1,167 @@
+/*--- footer ---*/
+
+.footer {
+	background-color: $red;
+	background-image:url(../images/footer_img.png);
+	color: $white-color;
+	padding:120px 0 50px;
+	font-weight:300;
+	position: relative;
+	.back-btn {
+		top: -157px;
+		position: absolute;
+		float: left;
+		left: 50%;
+		background: #e72c30;
+		width: 80px;
+		height: 80px;
+		line-height: 64px;
+		border-radius: 50px;
+		box-shadow: 1px 2px 8px #0000001a;
+		text-align: center;
+		a{
+			color:$white-color;
+			i{
+				margin:0;
+			}
+			i::before{
+				margin:0;
+			}
+		}
+	}
+	.title{
+		h2{
+			font-size:50px;
+			color:#fff;
+		}
+	}
+	.f-menu-content
+	{
+		display: flex;
+		.f-menu
+		{
+			flex: auto;
+			 h3 {
+					font-size:20px;
+					margin-bottom:40px;
+					color: $white-color;
+				}
+			a{
+				color: $white-color;
+			}
+		}
+	}
+	.footer-logo {
+		display: flex;
+		margin-bottom: 100px;
+		margin-top: 120px;
+		.logo {
+			flex: auto;
+			text-align: center;
+			line-height: 77px;
+		}
+
+	}
+	a {
+		color: $light-skyblue;
+	}
+	a:hover {
+		color: $yellow-color;
+	}
+	li {
+		list-style: none;
+	}
+	.w50 {
+		float: left;
+		width: 50%;
+	}
+	.w50 li {
+		margin-bottom: 10px;
+	}
+	.weight h3 {
+		color: $white-color;
+		font-weight: 500;
+		font-size:20px;
+		margin-bottom: 40px;
+	}
+	.weight h5 a {
+		color: $white-color;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.weight{
+		.social-f {
+		display: flex;
+		 div {
+			flex-basis: 30px;
+		}
+		
+	}
+	}
+	
+	.time {
+		font-size: 12px;
+	}
+	.time::before {
+		color: $yellow-color;
+		content: "";
+		font-family: fontawesome;
+		margin-right: 10px;
+	}
+	.weight i {
+		color: $white-color;
+		float: left;	
+	}
+	.weight span {
+		display: inline-block;
+		width: 86%;
+	}
+	.weight h5 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.weight li {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.contact-form.newslater .form-control {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		border: 1px solid $white-color;
+		border-radius: 0;
+		color: $white-color;
+		height: 46px;
+		display: inline-block;
+		width: 72%;
+	}
+	#contact-form4 {
+		background: #fff;
+		padding:10px 5px;
+		.form-group {
+			display: inline-block;
+			width: 100%;
+			margin-bottom:2px;
+		}		
+	}
+	.newslater {
+		.btn-custom {
+			background: $red !important;
+			padding: 8px 0;	
+			text-transform: uppercase;
+			float: right;
+			width: 24%;
+			border-radius: 0;
+		}
+		.btn-custom:hover {
+			background: $darkbule2-color !important;
+		}
+	}
+}
+
+
+.copy-right {
+	border-top:1px solid #ffffff4d;
+	color: $white-color;
+	padding: 50px 0 0;	
+	margin-top:100px;
+}

@@ -1,0 +1,59 @@
+/*--- 
+import
+variables 
+loading
+body
+navbar
+mainheader
+about
+insideheader
+about
+tabs
+payment-sections
+team
+progress-bar
+features
+services
+px-bg
+news
+faq
+contact
+footer
+responsive
+---*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+/*--- icon font ---*/
+@import url('../font/softwall-icons/font/flaticon.css');
+@import url('../font/css/font-awesome.min.css');
+@import url('../font/pe-icon-7-stroke/css/pe-icon-7-stroke.css');
+/*--- bootstrap ---*/
+@import url('../css/bootstrap.min.css');
+/*--- animate ---*/
+@import url('../css/animate.min.css');
+@import url('../css/baguetteBox.css');
+@import url('../owlcarousel/assets/owl.carousel.min.css');
+
+
+@import 'variables';
+@import 'loading';
+@import 'body';
+@import 'navbar';
+@import 'mainheader';
+@import 'insideheader';
+@import 'about';
+@import 'call-to-action';
+@import 'tabs';
+@import 'payment-sections';
+@import 'team';
+@import 'progress-bar';
+@import 'features';
+@import 'services';
+@import 'px-bg';
+@import 'news';
+@import 'prices';
+@import 'footer';
+@import 'responsive';
+
+
+

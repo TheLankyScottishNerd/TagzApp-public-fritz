@@ -1,0 +1,109 @@
+
+/*--- about ---*/
+
+.about {
+	padding: 120px 0 120px;
+position:relative;	
+ .title{
+	margin-bottom:30px;
+	margin-top:50px;
+ }
+
+.dashboard {
+        position: absolute;
+    top: 0;
+    right: -332px;
+    background: url(../images/blur.png) no-repeat;
+    background-position: center bottom;
+    padding-bottom: 80px;
+	img {
+			animation: alltuchtopdown 3s infinite;
+			-webkit-animation: alltuchtopdown 3s infinite;
+			animation-delay: 0s;
+			-webkit-animation-delay: 1s;
+		}
+}
+	.about-text
+	{
+		
+		p{
+			margin-bottom: 30px;
+		}
+		
+	}
+	.about-img{
+		img {
+    width: 100%;
+}
+		a {
+	background: $blue-color;
+	border-radius: 50%;
+	color: $white-color;
+	display: block;
+	font-size: 19px;
+	height: 80px;
+	left: 43%;
+	line-height: 80px;
+	position: absolute;
+	text-align: center;
+	top: 28%;
+	width: 80px;
+}
+		a:hover {
+	background: $green-color none repeat scroll 0 0;
+}
+		h3 {
+	color: $white-color2;
+	float: right;
+	font-size: 400px;
+	font-weight: 700;
+	margin-right: -130px;
+	margin-top: -318px;
+	position: relative;
+	z-index: -1;
+}
+	
+	}
+	.about-title
+	{
+	color: $white-color2;
+	float: left;
+    font-size: 200px;
+    font-weight: 700;
+    margin-left: -200px;
+    position: absolute;
+    top: 24px;
+    z-index: -1;
+	}
+	.about-h3 {
+	color: $titleFont-color;
+	letter-spacing: $letter-spacing;
+		font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+	
+}
+.about2
+{
+	padding: 100px 0;
+	position:relative;
+	
+	h2{
+		font-size: 48px;
+		font-weight: 700;
+		color:  $titleFont-color;
+		margin-bottom: 30px;
+	}
+	
+}
+.about2::after{
+		position: absolute;
+content: "";
+background: url(../images/about2.jpg) no-repeat right 0;
+right: 0;
+top: 0;
+width: 50%;
+height: 100%;
+	}
